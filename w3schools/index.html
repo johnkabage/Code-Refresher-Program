@@ -5,8 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<title>w3 schools</title>
+	<link rel="icon" type="image/x-icon" href=" favicon.ico">
 </head>
 <body>
+	<!--
 	<h1>introduction to HTML</h1>
 	<p>this is a new paragraph</p>
 	<p>a paragraph without a closing tag
@@ -71,7 +73,7 @@
 	<!-- 
 	<p>look at thi cool image:</p>
 	<img border="0" src="pic_trulli.jpg"> 
-	-->
+	
 	<h1 style="background-color: tomato;">Tomato</h1>
 	<h1 style="background-color: orange;">orange</h1>
 	<h1 style="background-color: dodgerblue;">dodgerblue</h1>
@@ -80,13 +82,15 @@
 	<h1 style="background-color: slateblue;">slateblue</h1>
 	<h1 style="background-color: violet;">violet</h1>
 	<h1 style="background-color: lightgray;">lightgray</h1>
+	-->
 
-	<!-- HTML COLORS -->
+	<!-- HTML COLORS 
 	<h1 style="border: 2px solid tomato;">html color</h1>
 	<h1 style="border: 2px solid dodgerblue;">html color</h1>
 	<h1 style="border: 2px solid violet;">html color</h1>
+	-->
 
-	<!-- html css -->
+	<!-- html css 
 
 	<h1 style="color:blue;">a blue heading</h1>
 
@@ -98,8 +102,9 @@
 	<p>
 		<button onclick="document.location='default.asp'">html tuitorial</button>
 	</p>
+	-->
 
-	<!-- to cretae bookmarks in html -->
+	<!-- to cretae bookmarks in html 
 
 	<h2 id="C4">chapter 4</h2>
 
@@ -132,6 +137,297 @@
 	<p>this chapter explains bla bla bla bla</p>
 	<h2>chapter 11</h2>
 	<p>this chapter explains bla bla bla bla</p>
+
+	<h2>html image</h2>
+	<img src="img_chania.jpg" alt="flowers in chania" width="460" height="345">
+	<img src="programming.gif">
+
+	<p><strong>floating image to the right</strong>
+		
+	</p>
+	<p>
+		<img src="smiley.gif" alt="smiey face" style="float:right;width: 42px; height: 42px;">
+	</p>
+
+	<p><strong>floating image to the left</strong>
+		
+	</p>
+	<p>
+		<img src="smiley.gif" alt="smiey face" style="float:left;width: 42px; height: 42px;">
+	</p>
+
+	<h2>image maps</h2>
+
+	<p>click on the computer the phone orthe cup of coffee to go to a new page and read more about the topic</p>
+
+	<img src="workplace.jpg" alt="workplace" usemap="#workmap" width="400" height="379">
+
+	<map name="workmap">
+		<area shape="rect" coords="34,44,270,350" alt="computer" href="computer.htm">
+		<area shape="rect" coords="290,172,333,250" alt="phone" href="phone.htm">
+		<area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+	</map>
+	-->
+
+
+	<!-- a clickable area can also trigger a javascript function 
+
+	<map name="workmap">
+		<area shape="circle" coords="337,300,44" href="coffee.htm">
+		
+	</map>
+
+	<script type="text/javascript">
+		function myFunction() {
+			alert("you clicked the coffee cup!");
+		}
+	</script>
+
+	<p style="background-image: url('img_girl.jpg');"></p>
+
+	<h2>the picture element</h2>
+	<picture>
+		<img src="img_food.jpg" alt="food image">
+		<source media="(min-width: 650px)" srcset="img_food.jpg">
+	</picture>
+
+	<p>
+		<ul>
+			<li>coffee</li>
+			<li>tea</li>
+			<li>milk</li>
+		</ul>
+
+		<ol>
+			<li>coffee</li>
+			<li>tea</li>
+			<li>milk</li>
+		</ol>
+
+
+	</p>
+	<p>
+		<dl>
+			<dt>coffee</dt>
+			<dd>- black hot drink</dd>
+			<dt>milk</dt>
+			<dd>- white cold drink</dd>
+		</dl>
+
+	</p>
+	<ul style="list-style-type: disc;">
+		<li>coffee</li>
+		<li>tea</li>
+		<li>milk</li>
+		
+	</ul>
+
+	<ul style="list-style-type: circle;">
+		<li>coffee</li>
+		<li>tea</li>
+		<li>milk</li>
+		
+	</ul>
+
+	<ul style="list-style-type: square;">
+		<li>coffee</li>
+		<li>tea</li>
+		<li>milk</li>
+		
+	</ul>
+
+	<ul style="list-style-type: none;">
+		<li>coffee</li>
+		<li>tea</li>
+		<li>milk</li>
+		
+	</ul>
+
+	<ul>
+		<li>coffee</li>
+		<li>Tea
+			<ul>
+				<li>black tea</li>
+				<li>green tea</li>
+			</ul>
+			
+		</li>
+		<li>milk</li>
+	</ul>
+
+	<ul>
+		<li><a href="#home">Home</a></li>
+		<li><a href="#news">News</a></li>
+		<li><a href="#contact">Contact</a></li>
+		<li><a href="#about">About</a></li>
+	</ul>
+
+	<!--
+
+	<div style="background-color:black;color:white;padding: 20px;">
+		<h2>london</h2>
+		<p>
+			london is the capital city of england. it is the most populous city in the united kingdom, with a metropolitan area of over 13 million inhabitants
+			standing on river thames, london has been a mojor settlement for two millenia, its history going back to its founding by the romans, who named it londinium
+		</p
+
+	</div>
+-->
+	<!--
+	<h1>the span element</h1>
+	<p>
+		my mother has <span>blue</span> eyes and my father has <span>dark green</span> eyes.
+	</p>
+
+	<div class="city">
+		<h2>london</h2>
+		<p>london is the capital city of england</p>
+	</div>
+
+	<div class="city">
+		<h2>paris</h2>
+		<p>london is the capital city of france</p>
+	</div>
+	
+	<div class="city">
+		<h2>tokyo</h2>
+		<p>london is the capital city of japan</p>
+	</div>
+
+	<h1>my <span class="note">important</span> heading</h1>
+
+	<p>this is some <span class="note">important</span> text</p>
+
+	<h2>the is attribute</h2>
+	<p>use css to style an element with the id "myHeader":</p>
+
+	<h1 id="myHeader">my header</h1>
+	<h2>html iframes</h2>
+
+	<p>you can use the height and width attributes to specify the size of the iframe:</p>
+
+	<iframe src="demo_iframe.htm" height="200" width="300" title="iframe examplee"></iframe>
+
+	<h2>iframe target for a link</h2>
+
+	<iframe src="demo_iframe.htm" name="iframe_a" height="300px" width="100%" title="iframe example"></iframe>
+
+	<p><a href="https://www.w3schools.com" target="iframe_a">w3schools.com</a></p>
+
+	<p>when the target attribute of a link matches the name of an iframe, the link will open in the iframe</p>
+
+	<h1>my first javascript</h1>
+
+	<button type="button"
+	onclick="document.getElementById('demo').innerHTML = Date()">Click me to display date and time</button>
+
+	<p id="demo"></p>
+
+	<p>javascript can change the content of an html element</p>
+
+	<button type="button" onclick="myFunction()">Click me!</button>
+
+	<<p id="demo">this is a demonstration</p>
+
+	<script>
+		function myFunction() {
+			document.getElementById("demo").innerHTML = "Hello HvaScript";
+		}
+	</script>
+	<p id="demo">javascript can change the style of an html elemnt</p>
+	
+	<script>
+		function myFunction() {
+			document.getElementById("demo").style.fontSize = "25px";
+			document.getElementById("demo").style.color = "red";
+			document.getElementById("demo").style.backgroundColor = "yellow";
+		}
+	</script>
+
+	<button type="button" onclick="myFunction()">Click Me!</button>
+
+
+	<h1>my first javascript</h1>
+
+	<p>here, a javascript changes the value of the source attribute of an image.</p>
+
+	<script>
+		function light(sw) {
+			var pic;
+			if (sw == 0) {
+				pic = "pic_bulboff.gif"
+			} else {
+				pic = "pic_bulbon.gif"
+			}
+			document.getElementById('myImage').src = pic;
+		}
+	</script>
+
+	<img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+
+	<p>
+		<button type="button" onclick="light(1)">light on</button>
+		<button type="button" onclick="light(0)">light off</button>
+	</p>
+
+-->
+<!--
+	<h2>css layout float</h2>
+	<p>in this example, we have created a header, two columns/boxes and a footer. on smaller screens, the columns will stuck on top of each other</p>
+
+	<p>resize the browser window to see the responsive effect</p>
+	<header>
+		<h2>cities</h2>
+	</header>
+
+	<section>
+		<nav>
+			<ul>
+				<li <a href="#">london</li>
+				<li <a href="#">paris</li>
+				<li <a href="#">tokyo</li>
+			</ul>
+		</nav>
+
+		<article>
+			<h1>london</h1>
+			<p>london is the capital city of england. it is the most populous city in the united kingdom with a metropolitan area of over 13 million inhabitants</p>
+			<p>standing on river themes, lindon has been a major settlement for two millenia, its history going back to its founding by the romans who named it londinium</p>
+		</article>
+	</section>
+
+	<footer>
+		<p>footer</p>
+	</footer>
+-->
+	<h2>CSS Layout Flexbox</h2>
+<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
+<p>Resize the browser window to see the responsive effect.</p>
+<p><strong>Note:</strong> Flexbox is not supported in Internet Explorer 10 and earlier versions.</p>
+
+<header>
+  <h2>Cities</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">London</a></li>
+      <li><a href="#">Paris</a></li>
+      <li><a href="#">Tokyo</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>London</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
 
 
 
